@@ -7,7 +7,9 @@ sudo pacman -S --needed --noconfirm\
 	networkmanager\
 	curl\
 	libx11\
+	xorg-server\
 	xorg-server-devel\
+ 	xorg-xinit\
 	xcb-util\
 	zsh\
 	tmux\
