@@ -11,6 +11,10 @@ sudo pacman -S --needed --noconfirm\
 	xorg-server-devel\
  	xorg-xinit\
 	xcb-util\
+ 	libxft\
+ 	libxinerama\
+ 	noto-fonts\
+   	noto-fonts-extra\
 	zsh\
 	tmux\
 	kitty\
