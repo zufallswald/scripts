@@ -19,6 +19,7 @@ sudo pacman -S --needed --noconfirm\
 	tmux\
 	kitty\
 	fzf\
+ 	ripgrep\
 	fd\
 	doxygen\
  	strace\
