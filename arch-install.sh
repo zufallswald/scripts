@@ -21,6 +21,7 @@ sudo pacman -S --needed --noconfirm\
 	fzf\
 	fd\
 	doxygen\
+ 	strace\
 	ccache\
 	valgrind\
 	vulkan-nouveau\
@@ -31,6 +32,7 @@ sudo pacman -S --needed --noconfirm\
 	gcc\
 	aarch64-linux-gnu-gcc\
 	aarch64-linux-gnu-glibc\
+ 	llvm\
 	clang\
 	git\
 	man\
@@ -41,6 +43,7 @@ sudo pacman -S --needed --noconfirm\
 	shfmt\
 	alsa-utils\
 	xclip\
+	gdb\
 	docker
 
 cp .vimrc ~/
