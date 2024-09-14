@@ -44,6 +44,7 @@ sudo pacman -S --needed --noconfirm\
 	alsa-utils\
 	xclip\
 	gdb\
+ 	openssh\
 	docker
 
 cp .vimrc ~/
