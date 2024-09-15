@@ -35,6 +35,7 @@ sudo pacman -S --needed --noconfirm\
 	aarch64-linux-gnu-glibc\
  	llvm\
 	clang\
+	libc++\
 	git\
 	man\
 	man-pages\
