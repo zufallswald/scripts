@@ -11,6 +11,7 @@ sudo pacman -S --needed --noconfirm\
 	xorg-server-devel\
  	xorg-xinit\
 	xcb-util\
+	xorg-xrandr\
  	libxft\
  	libxinerama\
  	noto-fonts\
@@ -49,11 +50,14 @@ sudo pacman -S --needed --noconfirm\
  	openssh\
 	docker
 
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 cp .vimrc ~/
 cp .tmux.conf ~/
 cp .zshrc ~/
 cp .bashrc ~/
 
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
+echo "shell /usr/bin/zsh" >> ~/.config/kitty/kitty.conf
