@@ -28,6 +28,7 @@ sudo pacman -S --needed --noconfirm\
 	valgrind\
 	vulkan-nouveau\
 	vulkan-tools\
+	vulkan-devel\
 	cmake\
 	make\
 	ninja\
