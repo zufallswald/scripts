@@ -49,6 +49,8 @@ sudo pacman -S --needed --noconfirm\
 	xclip\
 	gdb\
  	openssh\
+	rust\
+	rust-analyzer\
 	docker
 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
