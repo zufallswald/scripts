@@ -15,6 +15,9 @@ sudo pacman -S --needed --noconfirm\
 	dmenu\
 	picom\
 	blueman\
+	networkmanager\
+	network-manager-applet\
+	nm-connection-editor\
 	shutter
 
 cp .xinitrc ~/
