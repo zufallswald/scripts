@@ -21,8 +21,8 @@ sudo pacman -S --needed --noconfirm\
 	shutter
 
 cp .xinitrc ~/
-cp config ~/.config/i3/
 cp kitty.conf ~/.config/kitty/
+cp -r i3 ~/.config/i3/
 cp -r i3status ~/.config/
 
 mkdir -p ~/Pictures/wallpapers
