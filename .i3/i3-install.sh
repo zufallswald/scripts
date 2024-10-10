@@ -14,11 +14,13 @@ sudo pacman -S --needed --noconfirm\
 	i3blocks\
 	dmenu\
 	picom\
+	blueman\
 	shutter
 
 cp .xinitrc ~/
 cp config ~/.config/i3/
 cp kitty.conf ~/.config/kitty/
+cp -r i3status ~/.config/
 
 mkdir -p ~/Pictures/wallpapers
 cp wallpapers/mountains.jpg ~/Pictures/wallpapers/

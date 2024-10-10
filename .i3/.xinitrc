@@ -39,6 +39,9 @@ fi
 #exec xterm -geometry 80x66+0+0 -name login
 #exec --no-startup-id xss-lock --transfer-sleep-lock -- xautolock --no-fork
 
+set bell-style none
+amixer set 'Beep' 0% mute
+
 exec xset r rate 200 &
 exec --no-startup-id xss-lock --transfer-sleep-lock -- xautolock --no-fork &
 exec xrandr --output eDP-1 --mode 2560x1600 --rate 60 --left-of HDMI-1 &
