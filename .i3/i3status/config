@@ -12,7 +12,6 @@ general {
 }
 
 order += "volume master"
-order += "volume mic"
 order += "ipv6"
 order += "wireless _first_"
 order += "ethernet _first_"
@@ -27,12 +26,6 @@ volume master {
         format_muted = "♪: muted (%volume)"
         device = "default"
 }
-
-volume mic { 
-  format = " %volume" 
-  format_muted = " (%volume)" 
-  device = "@DEFAULT_SOURCE@"
-}   
 
 wireless _first_ {
         format_up = "W: (%quality at %essid) %ip"
